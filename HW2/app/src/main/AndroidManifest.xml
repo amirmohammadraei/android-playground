@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fallapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_abd1a359_46f1_43e6_ae61_5e5d866e9478"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"></application>
+
+</manifest>
