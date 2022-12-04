@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="فال حافظ شیرازی"
+        android:fontFamily="@font/laleh"
+        android:textSize="60dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/color4"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="728dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/laleh"
+        android:text="برای دریافت فال روی دکمه زیر کلیک کنید"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/laleh"
+        android:textSize="35dp"
+        android:textColor="@color/color4"
+        android:background="@color/color2"
+        android:onClick="getFall"
+        android:text="دریافت فال" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/laleh"
+        android:textSize="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="475dp"
+        android:textColor="@color/color4"
+        android:background="@color/color2"
+        android:onClick="getAbout"
+        android:text="درباره برنامه" />
+</RelativeLayout>
