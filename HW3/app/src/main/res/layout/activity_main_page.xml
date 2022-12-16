@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainPage">
+
+    <HorizontalScrollView
+        android:layout_width="401dp"
+        android:layout_height="271dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="252dp"
+        android:layout_marginBottom="208dp">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="book1"
+                app:srcCompat="@drawable/ic_book_svgrepo_com" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="book2"
+                app:srcCompat="@drawable/ic_book_svgrepo_com1" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="book3"
+                app:srcCompat="@drawable/ic_book_svgrepo_com2" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="book4"
+                app:srcCompat="@drawable/ic_book_svgrepo_com3" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="book5"
+                app:srcCompat="@drawable/ic_book_svgrepo_com4" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+</RelativeLayout>

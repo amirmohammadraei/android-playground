@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="286dp">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="book1"
+                app:srcCompat="@drawable/ic_6232591227108602" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="book2"
+                app:srcCompat="@drawable/ic_6374770325372115" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="book3"
+                app:srcCompat="@drawable/ic_74882" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-500dp"
+                android:layout_marginTop="235dp"
+                android:layout_weight="1"
+                android:text="سلامتی انسان\n علی احمدی" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="235dp"
+                android:layout_weight="1"
+                android:text="ملت عشق \n الیف شافاک" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="235dp"
+                android:layout_weight="1"
+                android:text="اعمال انسان\n هان کانگ" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-350dp"
+                android:layout_marginTop="550dp"
+                android:layout_weight="1"
+                android:text="ملت عشق\n حسین احدی" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="401dp"
+        android:layout_height="439dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="292dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="book4"
+                app:srcCompat="@drawable/ic_k" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="book5"
+                app:srcCompat="@drawable/ic_5590329702080648" />
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="book5"
+                app:srcCompat="@drawable/ic_90884_59309_normal" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-460dp"
+                android:layout_marginTop="200dp"
+                android:layout_weight="1"
+                android:text="انسان سالم\nاصغر آقایی" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="200dp"
+                android:layout_weight="1"
+                android:text="زندگی زیبا\nلوییز ال هی" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="200dp"
+                android:layout_weight="1"
+                android:text="عشق زیبا\nلوییز ال هی" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+</RelativeLayout>
