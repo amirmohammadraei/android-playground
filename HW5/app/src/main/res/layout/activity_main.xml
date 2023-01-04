@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kotProject.MainActivity"
+    android:background="#FFF3E0">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="369dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="369dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="189dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="189dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="189dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="189dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="189dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15dp"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="57dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="250dp"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="57dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="310dp"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="57dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="370dp"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="57dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="430dp"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="57dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="490dp"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="540dp"
+        android:text="دریافت موقعیت فعلی" />
+
+</RelativeLayout>
