@@ -4,8 +4,6 @@ The following repository contains some of my homework for course ANDROID.
 
 ## [Homework 1](https://github.com/amirmohammadraei/android-playground/tree/main/HW1)
 
-Description of [HW1](https://github.com/amirmohammadraei/android-playground/tree/main/HW1): 
-
 In this exercise, we had to write a simple program that would show a small ID card of us on the screen. In this application, we had to display a small picture of ourselves on the right side of the screen, and our first and last name on the left side, and the email at the bottom of the screen.
 
 ## [Homework 2](https://github.com/amirmohammadraei/android-playground/tree/main/HW2)
